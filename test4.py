@@ -1,0 +1,10 @@
+# Take a tuple of numbers and find the largest value, smallest value, total number of elements, and number of times a specified value occurs.
+numbers = (10, 20, 30, 20, 40, 20)
+largest = max(numbers)
+smallest = min(numbers)
+total_elements = len(numbers)
+occurrences = numbers.count(20)
+print("Largest:", largest)
+print("Smallest:", smallest)
+print("Total elements:", total_elements)
+print("Occurrences:", occurrences)
