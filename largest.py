@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Take a list of numbers and find the second-largest value without using the sort() or max() methods
 numbers = [10, 50, 30, 80, 40]
 
@@ -15,3 +16,13 @@ print("Second largest:", second_largest)
 
 
 
+=======
+# Take a number as input and check whether it is positive, negative, or zero.
+num = int(input("Enter a number:"))
+if(num > 0):
+    print("Positive")
+elif(num < 0):
+    print("Negative")
+else:
+    print("Zero")
+>>>>>>> adde9bd95c22f6025a6033a47c5cd57d839c255c
